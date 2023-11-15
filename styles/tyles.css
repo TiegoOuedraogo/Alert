@@ -1,0 +1,65 @@
+body {
+    background-image: url("../images/galaxy.jpg");
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+ 
+    .alert-container {
+        background-color: #c0392b; 
+        padding: 20px;
+        width: 340px; 
+        box-shadow: blue 0px 0px 0px 2px inset, 
+        rgb(190, 193, 27) 10px -10px, 
+        rgb(227, 2, 2) 10px -10px 0px -3px, 
+        rgb(6, 216, 62) 20px -20px 0px -3px;
+        border-radius: 8px;
+        color: white;
+        text-align: center;
+    }
+    .alert-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .alert-header h3 {
+        margin: 0;
+        font-weight: normal;
+        color: #ecf0f1; /* Lighter text color */
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    input[type="text"],
+    input[type="email"],
+    select {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 4px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, 
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    button.btn {
+        padding: 10px;
+        background-color: #ecf0f1; /* Light gray button */
+        color: #333;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        
+    }
+    button.btn:hover {
+        background-color: #bdc3c7; /* Darker gray on hover */
+    }

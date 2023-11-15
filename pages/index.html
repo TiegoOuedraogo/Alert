@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="../styles/tyles.css">
+    <title>Alert</title>
+</head>
+<body>
+    <div class="alert-container">
+        <div class="alert-header">
+            <span class="material-symbols-outlined">
+                crisis_alert
+                </span>
+                <h3>Coming Alert</h3>
+        </div>
+        <div>
+            <form action="#" onsubmit="showAlert(event)">
+                <label for="Alert">Get in touch</label>
+                <br>
+                <input type="text" name="identification" placeholder="Enter your name please"><br>
+                <input type="email" name="email" placeholder="Enter your email please"><br>
+                <input type="number" name="phoneNumber" placeholder="Enter your phone number please"><br>
+                <label for="pet-select">Choose a suject:</label>
+
+                <select name="suject" id="select-suject">
+                  <option value="">--Please choose an option--</option>
+                  <option value="fire">Fire</option>
+                  <option value="floading">Floading</option>
+                  <option value="medical">Medical</option>
+                  <option value="police">Police</option>
+                  <option value="FBI">FBI</option>
+                  <option value="WhiteHouse">White House</option>
+                </select>
+                <textarea name ="suggestions" rows="5" cols="40" placeholder="briefly explain why your situation here and wait for the next customer representative..."></textarea>
+        
+                <button type="submit" class="btn">Send Message</button>
+                    
+            </form>
+
+        </div>
+
+    </div>
+    <script src="../javascript/script.js"></script>
+</body>
+</html>
